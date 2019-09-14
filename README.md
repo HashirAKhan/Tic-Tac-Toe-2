@@ -12,7 +12,7 @@ Heres the difference between each of your options
   Difficulty 2: If the computer has an oppurtunity to win on its turn or to block the player from winning, There is a high chance it will mark that space.
                 (winning takes priority over blocking)
   
-  Difficulty 3: If the computer has has an oppurtunity to win on its turn or black the player from winning it will ALWAYS mark that spot.
+  Difficulty 3: If the computer has has an oppurtunity to win on its turn or block the player from winning it will ALWAYS marks that spot.
                 (winning takes priority over blocking)
                 (The only way for the player to win is to have two different spaces that would allow you to win on the same turn, the computer can only block one)
                 
