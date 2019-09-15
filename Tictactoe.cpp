@@ -73,6 +73,8 @@ int main(){
         std::cin>>playAgain;
       } while (!(playAgain == 'Y'|| playAgain == 'N'));
       if(playAgain == 'N'){
+        delete board;
+        board = nullptr;
         return 0;
       }
     }
@@ -85,6 +87,8 @@ int main(){
       std::cin>>playAgain;
     } while (!(playAgain == 'Y'|| playAgain == 'N'));
     if(playAgain == 'N'){
+      delete board;
+      board = nullptr;
       return 0;
     }
   }
